@@ -1,4 +1,3 @@
-# cloud-parking
+PROJETO usando Java, Spring Framework e PostgreSQL
 
-## Run database
-docker run --name parking-db -p 5432:5432 -e POSTGRES_DB=parking -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=123 -d postgres:10-alpine
+Criação de API para controlar um Estacionamento, entrada e saída de veículos, e valor a pagar por tempo estacionado.
